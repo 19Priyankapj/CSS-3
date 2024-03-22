@@ -1,0 +1,60 @@
+/*p12.html*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    width: 600px;
+    left: 30%;
+    top: 5%;
+    text-align: center;
+    margin: 0 auto;
+    height: 60px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #262626;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: poppins;
+    margin-left: 25px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/girl.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    color: #fff;
+}
+.banner h2{
+    font-family: poppins;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 65px;
+    margin: 0 0 10px;
+
+}
+button{
+    padding: 10px 50px;
+    color: #fff;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 40px;
+    font-family: 25px;
+}
+button:hover{
+    background-color: transparent;
+}
+nav a:hover{
+    color: #6927ff;
+}
